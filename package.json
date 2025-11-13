@@ -1,0 +1,23 @@
+{
+  "name": "pi-mainnet-node-checker",
+  "version": "1.0.0",
+  "description": "Skrip untuk mengecek status server node Pi Network (port 31401) secara serial dan menyimpan hasil valid, novalid, dan timeout ke file.",
+  "main": "node-check-mainnet-servers.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scan.js"
+  },
+  "author": "Samsudin",
+  "license": "MIT",
+  "keywords": [
+    "pi-network",
+    "node-checker",
+    "stellar",
+    "mainnet",
+    "server-check"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}
